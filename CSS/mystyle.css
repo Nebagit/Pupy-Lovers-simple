@@ -1,0 +1,109 @@
+* {
+  margin: 0px;
+}
+.banner_puppy_image {
+  width: 100%;
+  margin-bottom: 20px;
+  height: auto;
+}
+
+.backGB {
+  background-color: #195774;
+  text-align: center;
+  padding: 1px;
+  width: 100%;
+  margin: auto;
+  font-weight: 100;
+  color: white;
+}
+.indepeF {
+  margin: auto;
+  padding: 1px;
+  text-align: center;
+  height: 200px;
+}
+
+#fot {
+  padding-top: 80px;
+}
+
+@media (max-width: 540px) {
+  .all_below_p {
+    margin: 0px auto;
+    padding: 0px 5%;
+  }
+
+  .all_below_p img {
+    width: 100%;
+  }
+  .missed {
+    background-color: tomato;
+    height: 400px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300px;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: auto;
+  }
+  .text-missed {
+    text-align: center;
+    padding-top: 200px;
+  }
+  #paragraph_more_puppies {
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .cutePuppy {
+    justify-content: space-between;
+    margin: 20px 0px;
+  }
+}
+
+@media (min-width: 721px) {
+  .Three_puppys {
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+    margin: auto;
+    margin-top: 15px;
+  }
+
+  #pm1 {
+    background-color: rgb(214, 51, 179);
+  }
+
+  .missed {
+    background-color: tomato;
+  }
+
+  #paragraph_more_puppies {
+    text-align: center;
+  }
+
+  .missed {
+    width: 33%;
+    text-align: center;
+  }
+
+  .text-missed {
+    font-size: xx-large;
+    margin-top: 100px;
+    font-weight: bold;
+  }
+
+  .cutePuppy {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  body {
+    margin: 0px;
+  }
+}
